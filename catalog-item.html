@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
+    <title>Барбершоп «Бородинский»</title>
   </head>
   <body>
   	
@@ -20,7 +20,7 @@
               <a href="#">Прайс-лист</a>
             </li>
             <li>
-              <a href="#">Магазин</a>
+              <a class="main-navigation-active">Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -33,60 +33,60 @@
       </div>
     </header>
     
-    <main class="container">
+    <main class="container background">
     	<h1>Набор для путешествий &laquo;Baxter of california&raquo;</h1>
-    	<nav class="catalog-navigation">
+    	<breadcrumbs class="catalog-navigation">
 	    	<ul>
 	    		<li>
-	    			<h3><a href="#">Главная</a></h3>
+	    			<a href="#">Главная</a>
 	    		</li>
 	    		<li>
-	    			<h3><a href="#">Магазин</a></h3>
+	    			<a href="#">Магазин</a>
 	    		</li>
 	    		<li>
-	    			<h3><a href="#">Средства для ухода</a></h3>
+	    			<a href="#">Средства для ухода</a>
 	    		</li>
 	    		<li>
-	    			<h3>Набор для путешествий &laquo;Baxter of california&raquo;</h3>
+	    			<a>Набор для путешествий &laquo;Baxter of california&raquo;</a>
 	    		</li>   		
 	    	</ul>
-    	</nav>
-    	<section class="pictures-of-good">
+    	</breadcrumbs>
+    	<section class="container50%">
     		<div class="main-picture"> 
-    			<img src="#" alt="Основное изображение" width="300" height="300">
+    			<img src="#" alt="Основное изображение">
     		</div>
-    		<div class="all-pictures">
-    			<img src="#" alt="Изображение 1" width="80" height="80">
-    		</div>
-    		<div class="all-pictures">
-    			<img src="#" alt="Изображение 2" width="80" height="80">
-    		</div>
-    		<div class="all-pictures">
-    			<img src="#" alt="Изображение 3" width="80" height="80">
-    		</div>
+    		<div class="other-pictures">
+	    		<div class="pic">
+	    			<img src="#" alt="Изображение 1">
+	    		</div>
+	    		<div class="pic">
+	    			<img src="#" alt="Изображение 2">
+	    		</div>
+	    		<div class="pic">
+	    			<img src="#" alt="Изображение 3">
+	    		</div>
+	    	</div>
     	</section>
-    	<section class="detailed description">
-    		<div class="item-in-stock">Есть в наличии</div>
-    		<div class="article">Артикул:dexter-ae</div>
+    	<section class="container50%">
+    		<span class="item-in-stock">Есть в наличии</span>
+    		<span class="item-article">Артикул:dexter-ae</span>
     		<div class="description">
-    			<p> Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+    			 путешествия. В аккуратной сумке находится все, что 
+    			 нужно для бритья и ухода за кожей во время рабочей 
     		</div>
     		<div class="item-order">
-        		<div class="item-price">2900 руб.</div>
-        		<button class="btn" type="submit">Купить</button>
+        		<span class="item-price">2900 руб.</span>
+        		<a class="btn" href="#">Купить</a>
         	</div>
-        	<div class="article-consists-of">
-        		<h2>В набор входят:</h2>
-        		<ul>
-	        		<li>Средство для умывания (50 мл)</li>
-	        		<li>Увлажняющий крем (50 мл)</li>
-	        		<li>Крем для бритья (50 мл)</li>
-	        		<li>Крем после бритья, шампунь (50 мл)</li>
-	        		<li>Удобная кожаная косметичка</li>
-        		</ul>
-        	</div>
-
-    	</section>
+            <h2>В набор входят:</h2>
+        	<ul class="item-structure">
+	        	<li>Средство для умывания (50 мл)</li>
+	        	<li>Увлажняющий крем (50 мл)</li>
+	        	<li>Крем для бритья (50 мл)</li>
+	        	<li>Крем после бритья, шампунь (50 мл)</li>
+	        	<li>Удобная кожаная косметичка</li>
+        	</ul>
+        </section>
     </main>
     
     <footer class="main-footer">
