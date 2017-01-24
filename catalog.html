@@ -1,79 +1,82 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Барбершоп «Бородинский»</title>
-  </head>
-  <body>
+   	<head>
+    	<meta charset="utf-8">
+    	<title>Барбершоп «Бородинский»</title>
+  	</head>
+  	<body>
   	
   	<header class="main-header">
-      <div class="container">
-        <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#">Информация</a>
-            </li>
-            <li>
-              <a href="#">Новости</a>
-            </li>
-            <li>
-              <a href="#">Прайс-лист</a>
-            </li>
-            <li>
-              <a class="main-navigation-active">Магазин</a>
-            </li>
-            <li>
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="user-block">
-          	<a class="login" href="#">Вход</a>
-        </div>
-      </div>
+  		<div class="header-logo">
+  			<img src="#" alt="Логотип">
+  		</div>
+      	<div class="container">
+	        <nav class="main-navigation">
+	          	<ul>
+	            	<li>
+	              		<a href="#">Информация</a>
+	            	</li>
+	            	<li>
+	              		<a href="#">Новости</a>
+	            	</li>
+	            	<li>
+	              		<a href="#">Прайс-лист</a>
+	            	</li>
+	            	<li>
+	              		<a class="main-navigation-active">Магазин</a>
+	            	</li>
+	            	<li>
+	              		<a href="#">Контакты</a>
+	            	</li>
+	          	</ul>
+	        </nav>
+        	<div class="user-block">
+          		<a class="login" href="#">Вход</a>
+        	</div>
+      	</div>
     </header>
     
     <main class="container background">
     	<h1>Средства для ухода</h1>
-    	<div class="breadcrumbs">
-	    	<ul>
-	    		<li>
-	    			<a href="#">Главная</a>
-	    		</li>
-	    		<li>
-	    			<a href="#">Магазин</a>
-	    		</li>
-	    		<li>
-	    			<a>Средства для ухода</a>
-	    		</li>   		
-	    	</ul>
-    	</div>
+    	
+	    <ul class="breadcrumbs">
+	    	<li>
+	    		<a href="#">Главная</a>
+	    	</li>
+	    	<li>
+	    		<a href="#">Магазин</a>
+	    	</li>
+	    	<li>
+	    		<a>Средства для ухода</a>
+	    	</li>   		
+	    </ul>
+    	
     	
     	<form action="#" method="post" class="criteria">
 	    	<section class="item-criterion">
 	    		<h2>Производители:</h2>
 		    	<label>
-		    		<input type="checkbox" name="item-brand" value="Baxter of california" checked>
+		    		<input type="checkbox" name="brand-1" checked>
 		    		Baxter of california
 		    	</label>
 		    	<label>
-		    		<input type="checkbox" name="item-brand" value="Mr Natty">
+		    		<input type="checkbox" name="brand-2">
 		    		Mr Natty
 		    	</label>
 		    	<label>
-		    		<input type="checkbox" name="item-brand" value="Suavecito" checked>
+		    		<input type="checkbox" name="brand-3" checked>
 		    		Suavecito
 		    	</label>
 		    	<label>
-		    		<input type="checkbox" name="item-brand" value="Malin+Goetz">
+		    		<input type="checkbox" name="brand-4">
 		    		Malin+Goetz
 		    	</label>
 		    	<label>
-		    		<input type="checkbox" name="item-brand" value="Murray's">
+		    		<input type="checkbox" name="brand-5">
 		    		Murray's
 		    	</label>
 		    	<label>
-		    		<input type="checkbox" name="item-brand" value="American Crew" checked>
+		    		<input type="checkbox" name="brand-6" checked>
 		    		American Crew
 		    	</label>
 	    	</section>
@@ -81,15 +84,15 @@
 	    	<section class="item-criterion">
 	    		<h2>Группы товаров:</h2>
 	    		<label>
-		    		<input type="radio" name="item-group" value="Бритвенные принадлежности">
+		    		<input type="radio" name="item-group" value="Shaving accessories">
 		    		Бритвенные принадлежности
 		    	</label>
 		    	<label>
-		    		<input type="radio" name="item-group" value="Средства для ухода" checked>
+		    		<input type="radio" name="item-group" value="Cosmetics for care" checked>
 		    		Средства для ухода
 		    	</label>
 		    	<label>
-		    		<input type="radio" name="item-group" value="Аксессуары">
+		    		<input type="radio" name="item-group" value="Accessories">
 		    		Аксессуары
 		    	</label>
 	    	</section>
@@ -101,7 +104,7 @@
     		
     		<div class="item">    			
           		<a href="#" class="item-picture">
-          			<img src="#" alt="Фото 1" width="150" height="200">
+          			<img src="#" alt="Фото 1">
           		</a>        		      		
         		<a href="#" class="item-description">
 		        	<h4>Набор для путешествий</h4>
@@ -109,13 +112,13 @@
 	        	</a>        		
         		<div class="item-order">
         			<span class="item-price">2900 руб.</span>
-        			<button class="btn" type="submit">Купить</button>
+        			<a class="btn" href="#">Купить</a>
         		</div>
     		</div>
     		
     		<div class="item">    			
           		<a href="#" class="item-picture">
-          			<img src="#" alt="Фото 2" width="150" height="200">
+          			<img src="#" alt="Фото 2">
           		</a>     		
             	<a href="#" class="item-description">
 		        	<h4>Увлажняющий кондиционер</h4>
@@ -123,13 +126,13 @@
 	        	</a>        		
         		<div class="item-order">
         			<div class="item-price">750 руб.</div>
-        			<button class="btn" type="submit">Купить</button>
+        			<a class="btn" href="#">Купить</a>
         		</div>
     		</div>
     		
     		<div class="item">    			
           		<a href="#" class="item-picture">
-          			<img src="#" alt="Фото 3" width="150" height="200">
+          			<img src="#" alt="Фото 3">
           		</a>      		
           		<a href="#" class="item-description">
 		        	<h4>Гель для волос</h4>
@@ -137,13 +140,13 @@
 	        	</a>        		
         		<div class="item-order">
         			<div class="item-price">290 руб.</div>
-        			<button class="btn" type="submit">Купить</button>
+        			<a class="btn" href="#">Купить</a>
         		</div>
     		</div>
     		
     		<div class="item">    			
           		<a href="#" class="item-picture">
-          			<img src="#" alt="Фото 4" width="150" height="200">
+          			<img src="#" alt="Фото 4">
           		</a>    		
         		<a href="#" class="item-description">
 		        	<h4>Глина для укладки волос</h4>
@@ -151,13 +154,13 @@
 	        	</a>        		
         		<div class="item-order">
         			<div class="item-price">500 руб.</div>
-        			<button class="btn" type="submit">Купить</button>
+        			<a class="btn" href="#">Купить</a>
         		</div>
     		</div>
     		
     		<div class="item">    			
           		<a href="#" class="item-picture">
-          			<img src="#" alt="Фото 5" width="150" height="200">
+          			<img src="#" alt="Фото 5">
           		</a>       		
              	<a href="#" class="item-description">
 		        	<h4>Гель для волос</h4>
@@ -165,13 +168,13 @@
 	        	</a>        		
         		<div class="item-order">
         			<div class="item-price">300 руб.</div>
-        			<button class="btn" type="submit">Купить</button>
+        			<a class="btn" href="#">Купить</a>
         		</div>
     		</div>
     		
     		<div class="item">    			
           		<a href="#" class="item-picture">
-          			<img src="#" alt="Фото 6" width="150" height="200">
+          			<img src="#" alt="Фото 6">
           		</a>     		
         	    <a href="#" class="item-description">
 		        	<h4>Набор для бритья</h4>
@@ -179,7 +182,7 @@
 	        	</a>        		
         		<div class="item-order">
         			<div class="item-price">3900 руб.</div>
-        			<button class="btn" type="submit">Купить</button>
+        			<a class="btn" href="#">Купить</a>
         		</div>
     		</div>
 
