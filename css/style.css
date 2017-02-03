@@ -1,13 +1,19 @@
 body {
-	background-color: #222222;
 	font-family: "PT Sans Narrow";
 	font-size: 14px;
 	line-height: 24px;
-	font-weight: normal;
+	font-weight: bold;
   text-transform: uppercase;
-  text-align: center;
-  width: 100%;
-  color: white;
+  min-width: 1122px; 
+  margin: 0;
+  padding: 0;
+  outline: blue solid;
+  background: url("../img/inner-background.jpg") ;
+}
+
+.index {
+  background-color: #222222;
+  background: url("../img/index/background-index.jpg") no-repeat;
 }
 
 h3, h4 {
@@ -15,7 +21,7 @@ h3, h4 {
   line-height: 18px;
 }
 
-h1,h2 {
+h1, h2 {
   font-size: 30px;
   line-height: 42px;
 }
@@ -25,8 +31,319 @@ h1,h2 {
   font-size: 24px;
   line-height: 30px;
 }
-/*
-.main-container {
-  width: 1200px;  
+ /*ОФОРМЛЕНИЕ ЗАГОЛОВКА*/
+ .main-header {  
+  outline: green solid;  
+  background-color: #000000; 
+  margin-bottom: 60px; 
+ }
+
+  header a {
+   text-decoration: none;    
+   color: white; 
+   font-size: 16px; 
+   line-height: 20px;
+  }
+
+ .container {
+  width: 940px;
+  padding: 0 10px;
+  outline: red solid;
   margin: 0 auto;
-} 
+ }
+
+/*ОСНОВНАЯ НАВИГАЦИЯ*/
+ .main-navigation {
+  outline: yellow solid;
+  width: 780px;
+  float: left;
+ }
+
+ ul {
+  list-style: none;  
+  padding: 0;
+  margin: 0;      
+}
+
+ .main-navigation li {
+    float: left;
+    margin-right: 40px; 
+    outline: yellow solid;    
+    padding: 30px 0;      
+  }
+
+  .logo {    
+    float: left;
+    outline: pink solid;
+    margin-right: 40px;
+    padding: 28px 0;    
+  }
+
+  header a {
+    text-decoration: none;
+    color: white; 
+    font-size: 16px; 
+    line-height: 20px;
+  }
+
+/*ОФОРМЛЕНИЕ ДЛЯ КНОПКИ ВХОДА*/
+  .user-block {
+    display: inline-block;
+    width: 140px;
+    float: right;    
+    padding: 30px 0;    
+    outline: yellow solid;    
+  }
+
+  .user-block a {
+    margin-left: 80px;
+  }
+
+/*ЛОГОТИП*/
+.index-logo { 
+  /*display: inline-block;*/
+  width: 368px;
+  height: 204px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  outline: green solid;
+}
+
+/*ГЛАВНАЯ СТРАНИЦА ** БЛОК FEATURES*/
+
+.features {
+  outline: green solid;
+  color: white;
+  text-align: center;
+}
+
+.features-name {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 10px;
+  outline: yellow solid;  
+ }
+
+ .features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+  outline: pink solid;
+  background: url("../img/index/index-content-background.jpg") no-repeat;
+}
+
+.index-content-left {
+  outline: yellow solid;
+  float: left;
+  width: 380px;
+}
+
+.index-content-right {
+  outline: yellow solid;
+  float: right;
+  width: 300px;
+  padding: 0;
+}
+
+.gallery-content {
+ outline: green solid;
+ margin: 0;
+}
+
+
+/*ПОДВАЛ*/
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  outline: green solid;
+  background-color: #202020;
+  color: white;
+}
+
+.main-footer a {
+  text-decoration: none; 
+  color: white;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  outline: yellow solid;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  outline: yellow solid;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  outline: yellow solid;
+}
+
+
+/*РАСПОРКА*/
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+/*ОФОРМЛЕНИЕ СТРАНИЦЫ КАТАЛОГА*/
+.breadcrumbs {
+  outline: green solid;
+  margin-bottom: 50px;
+}
+
+.breadcrumbs li {
+  outline: yellow solid;
+  float: left;
+  margin-right: 40px;  
+}
+
+.breadcrumbs li a {
+  text-decoration: none;
+}
+
+.criteria {
+  outline: green solid;  
+  margin-right: 30px;
+  width: 174px;
+  float: left;
+}
+
+.item-criterion {
+  outline: yellow solid;  
+}
+
+.gallery-of-goods {
+  outline: green solid;
+  width: 710px;
+  float: right;
+  margin-top: 0;
+}
+
+.item {
+  outline: yellow solid;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.inner-block {
+  outline: blue solid;
+  margin: 0;
+}
+
+.results-navigation {
+  outline: green solid;
+}
+
+.results-navigation li {
+  outline: yellow solid;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 20px;
+  margin-top: 45px;
+  margin-right: 8px;
+  background-color: black;  
+}
+
+.results-navigation li a {
+  text-decoration: none; 
+  color: white;  
+}
+/*почему не работает класс???*/
+.results-navigation li:nth-child(2) {
+  background-color: white;
+  outline: blue solid;
+}
+
+.results-navigation li:nth-child(2) a {
+  color: black;  
+}
+
+/*ОФОРМЛЕНИЕ СТРАНИЦЫ ТОВАРА ИЗ КАТАЛОГА*/
+
+.container-half {
+  width: 50%;
+  float: left;
+  outline: green solid;
+}
+
+.main-picture {
+  outline: yellow solid;
+}
+
+.other-pictures a {
+  padding: 0;
+  outline: pink solid;
+  float: left;  
+}
+
+.other-pictures a:nth-child(1),
+.other-pictures a:nth-child(2) {
+  margin-right: 20px;
+}
+
+.item-in-stock {
+  margin-left: 90px;
+  padding: 30px 0;
+  float: left;
+  outline: yellow solid;
+}
+
+.item-article {
+  color: #b4b3b3;
+  float: right;
+  padding: 30px 0;
+  outline: yellow solid;
+}
+
+.item-characteristic {
+  outline: red solid;  
+}
+
+.item-description-inner {
+  margin-top: 0;
+  margin-left: 90px;
+  outline: yellow solid;
+}
+
+.container-half .item-order {
+  margin-left: 90px;
+  outline: yellow solid;
+}
+
+.item-structure {
+  margin-left: 90px;
+  outline: yellow solid;
+}
+
+.container-half h2 {
+  margin-left: 90px;
+}
