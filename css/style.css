@@ -264,6 +264,7 @@ html {
 .inner-block {
   outline: blue solid;
   margin: 0;
+  margin-bottom: 50px;
 }
 
 .results-navigation {
@@ -310,6 +311,7 @@ html {
   padding: 0;
   outline: pink solid;
   float: left;  
+  height: 149px;
 }
 
 .other-pictures a:nth-child(1),
